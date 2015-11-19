@@ -1,74 +1,63 @@
-header img {
-  width: 25%;
+/*-- * {
+  border: 1px solid red;
+}*/
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
-/* more specific takes precedence*/
-nav a {
-  text-decoration: line-through;
+body {
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
 }
-a {
-  text-decoration: none;
+.search-results {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #eee;
 }
-/* more recent takes precedence */
-p { color: darkgray; }
-
-h1, h2, h3, h4 { font-family: 'Slabo 27px', serif; font-weight bold; color: Black}
-/*
-h2 { color: darkgreen}
-h3 { color: darkgreen}
-h4 { color: black}
-*/
-/* resize images */
-.container img {
-    width: 20%;
-    height: auto;
+  /*
+    webkit-column-count: 3; /* Chrome, Safari, Opera */
+  /*
+    moz-column-count: 3; /* Firefox */
+    
+  /* column-count: 3; */
+  
+.card-product {
+  width: 150px;
+  height: 300px;
+  padding: 2px;
+  border: 1 px solid green;
+  float: left;
 }
-.addBorder {
-  /* creating addBorder class and specifying Thickness, Style, and Color. Note: only Tufts is of the class and will have the border */
-  border: 1px solid #000000;
+.product-image {
+  width: 140px;
+  padding: 2px;
+  border: 1 px solid blue; 
+  float: none;
 }
-/* learning how to use a Box. Note, it's not right yet. Article images 20% after margins and padding. 
-.box {
-        width: 20%;
-        padding: 1em;
-        border: 5px solid gray;
-        margin: 0;
-      } */
-p {  
-  text-align: left;
+.product-rating {
+  width: 140px;
+  padding: 2px;
+  border: 1 px solid aquamarine; 
+  float: left;
 }
-/* Commenting out the p.left container.
-p.left {
-    text-align: left;
-    color: magenta;
+.product-title {
+  width: 140px;
+  padding: 2px;
+  border: 1 px solid yellow; 
+  float: left;
 }
-*/
-#para1, #para2, #para3, #para4, #para5, #para6, #para7 {
-    text-align: left;
-    color: darkgray;
+product-price {
+  width: 140px;
+  padding: 2px;
+  border: 1 px solid purple; 
+  float: left;
 }
-/* commenting out the styles used previously
-#para2 {
-    text-align: left;
-    color: brown;
+.product-promo-price {
+  width: 180px;
+  padding: 2px;
+  border: 1 px solid purple; 
+  float: left;
 }
-#para3 {
-    text-align: left;
-    color: blanchedalmond;
-}
-#para4 {
-    text-align: right;
-    color: greenyellow;
-}
-#para5 {
-    text-align: center;
-    color: green;
-}
-#para6 {
-    text-align: left;
-    color: silver;
-}
-#para7 {
-    text-align: right;
-    color: crimson;
-} 
-*/
