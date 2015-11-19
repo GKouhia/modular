@@ -49,7 +49,7 @@ body {
   border: 1 px solid yellow; 
   float: left;
 }
-product-price {
+.product-price {
   width: 140px;
   padding: 2px;
   border: 1 px solid purple; 
